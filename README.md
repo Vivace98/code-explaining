@@ -31,11 +31,35 @@ The skill emphasizes:
 
 ---
 
+## `r-code-explain`
+
+Explains R research code used in statistics, demography, survey analysis, and quantitative social science workflows.
+
+Focus areas:
+
+- survey-weighted analysis
+- regression modeling
+- demographic workflows
+- data preprocessing
+- visualization
+- statistical package explanation
+- modeling logic reconstruction
+
+The skill emphasizes:
+
+- workflow-level understanding
+- statistical reasoning
+- package interpretation
+- line-by-line explanation
+- beginner-friendly research learning
+
+---
+
 # Templates
 
 ## `python_explain_note.md`
 
-Reusable explanation template for organizing code interpretation notes.
+Reusable explanation template for organizing Python code interpretation notes.
 
 The template structures explanations into:
 
@@ -45,6 +69,21 @@ The template structures explanations into:
 - line-by-line explanation
 - statistical interpretation
 - modeling intuition
+
+---
+
+## `r_explain_note.md`
+
+Reusable explanation template for organizing R code interpretation notes.
+
+The template structures explanations into:
+
+- workflow purpose
+- package explanation
+- modeling logic
+- statistical interpretation
+- step-by-step code explanation
+- research workflow context
 
 Designed for research note-taking and learning workflows.
 
@@ -57,11 +96,17 @@ code-explaining/
 │
 ├── README.md
 │
-└── python-code-explain/
+├── python-code-explain/
+│   ├── SKILL.md
+│   │
+│   └── templates/
+│       └── python_explain_note.md
+│
+└── r-code-explain/
     ├── SKILL.md
     │
     └── templates/
-        └── python_explain_note.md
+        └── r_explain_note.md
 ```
 
 ---
@@ -77,7 +122,8 @@ codex-project/
 │
 ├── skills/
 │   └── code-explaining/
-│       └── python-code-explain/
+│       ├── python-code-explain/
+│       └── r-code-explain/
 │
 └── ...
 ```
